@@ -23,9 +23,9 @@ Meetups is a simple events calendar app. Given a `no_later_than` date and a `mee
 
 1. Install dependencies
 
-  ```sh
-  pip install -r requirements.txt
-  ```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 1. Modify `config.json` according to your needs
 
