@@ -25,10 +25,10 @@ def markdownify(event):
   result = f'''
 ## [{event["name"]}]({event["link"]})
 
-By: {event["organizer"]}
-When: {event["date"]}
-Where: {event["location"]}, [{event["address"]}]({event["address_link"]})
-What: {event["description"]}
+By: {event["organizer"]}\n
+When: {event["date"]}\n
+Where: {event["location"]}, [{event["address"]}]({event["address_link"]})\n
+What: {event["description"]}\n
 ---
 '''
   return result
